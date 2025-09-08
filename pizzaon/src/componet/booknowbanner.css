@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    padding: 0px;
+}
+
+html,body{
+    width: 1351px;
+    height: 633px;
+ }
+
+.book-banner-section {
+  
+    background-color: #fffaed;
+    padding: 0px;
+    padding: 150px 0px;
+    position: relative;
+}
+.banner-content {
+    text-align: left;
+    padding: 0px 20px 0px;
+}
+
+.banner-content h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.banner-content p {
+    font-size: 1.5rem;
+    color: rgba(128, 128, 128, 0.914);
+}
+
+.banner-onion-img {
+    position: absolute;
+    content: '';
+    box-sizing: border-box;
+    top: 10%;
+    right: 30%;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.banner-leaf-img {
+    position: absolute;
+    content: '';
+    right:0%;
+    top: 15%;
+    width: 100px;
+}
+
+.banner-tamato-img {
+    position: absolute;
+    content: '';
+    right: 5%;
+    bottom: 10%;
+    width: 100px;
+    object-fit: contain;
+}
+
+.banner-menu {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    font-size: 1.5rem;
+}
