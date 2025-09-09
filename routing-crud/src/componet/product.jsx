@@ -4,6 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
+import { getStorageData, setStorageData } from '../services/storage.data';
+import { useNavigate } from 'react-router';
 
 const Product = () => {
     const innitialState = {
@@ -15,15 +17,23 @@ const Product = () => {
         image: "",
     }
     const [inputform, setInputForm] = useState(innitialState);
+    const navigate = useNavigate();
     const handalchanged = (e) => {
         const { name, value } = e.target;
         setInputForm({ ...inputform, [name]: value })
     }
 
+
     const handalsubmit = (e) => {
         e.preventDefault();
-        console.log("submit",inputform);
-
+        // inputform.id = generateuniqueid();   
+        inputform.id = Math.floor(Math.random() * 100);
+        console.log("submit", inputform);
+        let oldData = getStorageData();
+        oldData.push(inputform);
+        setStorageData(oldData);
+        setInputForm(innitialState);
+        navigate("/");
     }
     return (
         <>
@@ -86,7 +96,7 @@ const Product = () => {
                         </Col>
                     </Form.Group>
 
-                    <Button style={{ textAlign: "center", marginLeft: "20%" }} type='submit'  variant="primary">Submit</Button>
+                    <Button style={{ textAlign: "center", marginLeft: "20%" }} type='submit' variant="primary">Submit</Button>
                 </Form>
             </Container>
 

@@ -15,19 +15,4 @@ function UserProfileCard({ name, email, profilePicture, phone, address, company 
     );
 }
 
-UserProfileCard.propTypes = {
-    name: PropTypes.string.isRequired,
-    email: PropTypes.string.isRequired,
-    profilePicture: PropTypes.string.isRequired,
-    phone: PropTypes.string,
-    address: PropTypes.string,
-    company: PropTypes.string,
-};
-
-UserProfileCard.defaultProps = {
-    phone: 'N/A',
-    address: 'N/A',
-    company: 'N/A',
-};
-
 export default UserProfileCard;

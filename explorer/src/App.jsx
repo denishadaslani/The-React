@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './App.css';
 import UserProfileCard from './component/userprofilecard';
 
@@ -19,7 +18,7 @@ function App() {
       profilePicture: 'https://randomuser.me/api/portraits/men/32.jpg',
       phone: '(792) 739-7166',
       address: 'Milwaukee, Missouri',
-      company: 'Innovatech Solutions',    
+      company: 'Innovatech Solutions',
     },
     {
       name: 'Kelly Wells',
@@ -27,7 +26,7 @@ function App() {
       profilePicture: 'https://randomuser.me/api/portraits/women/65.jpg',
       phone: '(724) 895-3622',
       address: 'Vernon, New Jersey',
-      company: 'TechNova Solutions',  
+      company: 'TechNova Solutions',
     },
   ];
 
