@@ -1,5 +1,5 @@
 export const getStorageData = () => {
-    return localStorage.getItem('products') || [];
+    return JSON.parse(localStorage.getItem('products')) || [];
 }
 
 export const setStorageData = (data) => {
