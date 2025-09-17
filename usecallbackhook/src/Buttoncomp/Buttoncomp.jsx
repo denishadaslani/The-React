@@ -1,8 +1,10 @@
-import { memo } from 'react'; 
-const Buttoncomp = memo(({ name, onClick }) => {
+import { memo } from 'react';
+const Buttoncomp = memo(({ name, handelClick }) => {
     console.log(name);
     return (
-        <button onClick={onClick}>{name}</button>
+        <>
+            <button onClick={handelClick}>{name}</button>
+        </>
     );
 });
 

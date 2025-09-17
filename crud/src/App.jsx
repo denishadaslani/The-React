@@ -97,7 +97,6 @@ function App() {
       // setmember(list[pos].member);
     }
     else {
-
     }
   }
   return (
