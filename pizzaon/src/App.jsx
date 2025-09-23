@@ -5,6 +5,7 @@ import './App.css'
 import Bookreserve from './componet/booknowreserve'
 import Bookbanner from './componet/booknowbanner'
 import Reservation from './componet/Reservation'
+import Bookmap from './componet/bookmap'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <>
       <Bookbanner />
       <Bookreserve />
+      <Bookmap/>
       <Reservation/>
     </>
   )

@@ -78,6 +78,7 @@ const AddProduct = () => {
             <h1 style={{ textAlign: "center" }}> Add Product</h1>
             <Container >
                 <Form onSubmit={handalsubmit}>
+                    
                     <Form.Group as={Row} className="mb-3" controlId="formPlaintextPassword">
                         <Form.Label column sm="2">
                             Title
