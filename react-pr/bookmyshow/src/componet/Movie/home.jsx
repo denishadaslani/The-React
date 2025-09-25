@@ -89,7 +89,7 @@ const Home = () => {
 
     return (
         <div className="home-wrapper">
-            <h2 className="page-title">All Movies</h2>
+          
 
             <div className="controls">
                 <input

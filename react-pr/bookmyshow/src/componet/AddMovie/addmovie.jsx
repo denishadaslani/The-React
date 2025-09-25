@@ -140,7 +140,7 @@ const Addmovie = () => {
 
                     <Form.Group as={Row} className="mb-3 ms-5">
                         <Col sm={{ span: 6, offset: 2 }}>
-                            <Button type="submit">Add Movie</Button>
+                            <Button type="submit">Submit</Button>
                         </Col>
                     </Form.Group>
                 </Form>
