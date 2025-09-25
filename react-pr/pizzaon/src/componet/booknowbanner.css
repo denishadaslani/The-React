@@ -8,34 +8,30 @@
     padding: 0px;
 }
 
-html,body{
-    width: 1351px;
-    height: 633px;
- }
-
-.book-banner-section {
-  
+.book-banner-section{
     background-color: #fffaed;
-    padding: 0px;
-    padding: 150px 0px;
+    padding: 0px !important;
+    padding: 150px 0px !important;
     position: relative;
+
 }
-.banner-content {
+
+.book-banner-content {
     text-align: left;
     padding: 0px 20px 0px;
 }
 
-.banner-content h1 {
+.book-banner-content h1 {
     font-weight: 700;
     font-size: 3.5rem;
 }
 
-.banner-content p {
+.book-banner-content p {
     font-size: 1.5rem;
-    color: rgba(128, 128, 128, 0.914);
+   color: #7c7c7b;
 }
 
-.banner-onion-img {
+.banner-onion-image {
     position: absolute;
     content: '';
     box-sizing: border-box;
@@ -46,24 +42,26 @@ html,body{
     object-fit: contain;
 }
 
-.banner-leaf-img {
+.banner-banner-leaf-image {
     position: absolute;
     content: '';
-    right:0%;
+    box-sizing: border-box;
+    right: 0%;
     top: 15%;
     width: 100px;
 }
 
-.banner-tamato-img {
+.banner-tamato-image {
     position: absolute;
     content: '';
-    right: 5%;
+    box-sizing: border-box;
+    right: 10%;
     bottom: 10%;
     width: 100px;
     object-fit: contain;
 }
 
-.banner-menu {
+.book-banner-menu{
     display: flex;
     list-style: none;
     justify-content: end;

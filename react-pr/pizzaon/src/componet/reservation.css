@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 .book-reservation-img img {
     width: 100%;
     height: 100%;
@@ -19,6 +20,10 @@
     font-weight: 700;
     font-size: 2.5rem;
 }
+ button:hover {
+    background-color: #E23744 !important;
+    border: none;
+}
 .reservation-name{
     width: 100%;
     height: 40px;
@@ -33,8 +38,3 @@
     border-radius: 10px;
  }
 
-.reservation-form Button:hover{
-    background-color:#f22e3e !important;
-    color: white;
-
-   }
