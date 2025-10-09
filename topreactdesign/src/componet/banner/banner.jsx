@@ -9,7 +9,6 @@ function Banner() {
                     <div className="banner-item">
                         <div className="banner-icon">
                             <img src="src/assets/5.png" height={32} width={35.94} alt="" />
-
                         </div>
                         <div className="banner-details">
 

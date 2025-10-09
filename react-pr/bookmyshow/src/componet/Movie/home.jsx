@@ -107,6 +107,9 @@ const Home = () => {
                     value={sortData}
                     onChange={(e) => setSortData(e.target.value)}
                 >
+
+
+
                     <option value="">Sort By</option>
                     <option value="name,asc">Name - asc</option>
                     <option value="name,desc">Name - desc</option>
